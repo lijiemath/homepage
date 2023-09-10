@@ -1,0 +1,65 @@
+.head {}
+
+h2 {
+    border-bottom: 2px solid gainsboro;
+    padding-bottom: 10px;
+}
+
+h2 span {
+    color: grey;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.notice {
+    float: left;
+    width: 65%;
+    display: inline-block;
+}
+
+.box {
+    position: relative;
+}
+
+.box .time {
+    position: absolute;
+    top: 12px;
+    right: 0;
+    color: gray;
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.box .title {
+    margin: 5px 0;
+    height: 100%;
+    display: inline-block;
+}
+
+.box .body {
+    margin-left: 60px;
+}
+
+.box .body p {
+    margin: 0;
+}
+
+.download {
+    float: right;
+    width: 30%;
+    display: inline-block;
+}
+
+.download a {
+    display: block;
+    margin: 10px 0 10px 10px;
+}
+
+.mobile .download {
+    width: 100%;
+}
+
+.mobile .notice {
+    width: 100%;
+}
